@@ -1,77 +1,82 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  color: #8f520d;
-  font-size: 24px;
-  font-weight: 100;
-  line-height: 28px;
-  margin: 0;
+  text-align: left;
+  color: #d35506;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 70px;
+
+  margin-right: 0 auto;
 }
 
 ul {
-  margin: 0 0 10px;
-  padding: 0;
+  font-weight: 100;
+  text-align: left;
+  margin: 10 10 10px;
+  text-align: left;
+  padding: 3px;
 }
 
 li {
-  color: #011218;
+  text-align: left;
+  color: #2a6f90;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 200;
   height: 19px;
   line-height: 1;
   list-style: none;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
+.form-control {
+  color: #2a6f90;
+}
 .weather-app {
-  border: 1px solid #bee6e6;
+  border: 3px solid #fcb856;
   padding: 15px;
   margin: 20px auto;
-  border-radius: 10px;
+  border-radius: 20px;
   max-width: 600px;
 }
 
-.weather-icon {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
-}
-
-.temperature {
-  color: rgb(109, 86, 52);
+#temperature {
+  text-align: left;
+  color: #2a6f90;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
-}
-
-.units {
-  position: relative;
-  top: -34px;
+  padding: 10px;
 }
 
 .search-form {
   display: block;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 0;
 }
 
 #current-location-button {
-  min-width: 90px;
-  max-width: 120px;
+  position: fixed;
+  min-width: 150px;
+  max-width: 150px;
   text-decoration: none;
-  display: block;
   outline: none;
   cursor: pointer;
   border-style: none;
   color: white;
-  background-color: #928254;
+  background-color: #d35506;
   border-radius: 100%;
   overflow: none;
   text-align: center;
-  padding: 0;
-  margin-top: 70px;
-  margin-right: 0px;
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 5px;
+  padding: 20px;
 }
 #current-location-button:before {
   content: "";
@@ -79,14 +84,14 @@ li {
   vertical-align: middle;
   padding-top: 100%;
 }
-.span {
-  display: inline-block;
-  vertical-align: right;
-  max-width: 90%;
+
+.row {
+  text-align: center;
+  font-display: solid;
+  color: #d35506;
+  margin-top: 20px;
 }
 
-#city {
-  text-align: center;
-  display: inline-block;
-  padding-top: 1px;
+#city-input {
+  color: #2a6f90;
 }
