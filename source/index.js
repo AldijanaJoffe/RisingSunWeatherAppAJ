@@ -1,4 +1,3 @@
-//redone went through the sourcecode, will give this more attention
 function formatDate(date) {
   let hours = date.getHours();
   if (hours < 10) {
