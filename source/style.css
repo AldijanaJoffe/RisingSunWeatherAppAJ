@@ -85,6 +85,11 @@ li {
   padding-top: 100%;
 }
 
+#current-location-button:hover {
+  background: #f9a702;
+  transition: all 200ms ease;
+}
+
 .row {
   text-align: center;
   font-display: solid;
