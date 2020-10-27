@@ -8,7 +8,6 @@ h1 {
   font-size: 50px;
   font-weight: 200;
   line-height: 70px;
-
   margin-right: 0 auto;
 }
 
@@ -32,11 +31,8 @@ li {
   margin-left: 10px;
 }
 
-.form-control {
-  color: #2a6f90;
-}
 .weather-app {
-  border: 3px solid #fcb856;
+  border: 5px solid #d35506;
   padding: 15px;
   margin: 20px auto;
   border-radius: 20px;
@@ -78,6 +74,7 @@ li {
   margin-right: 5px;
   padding: 20px;
 }
+
 #current-location-button:before {
   content: "";
   display: inline-block;
@@ -91,12 +88,21 @@ li {
 }
 
 .row {
+  font-size: 16px;
+  color: #d35506;
   text-align: center;
-  font-display: solid;
+  font-weight: 50px;
   color: #d35506;
   margin-top: 20px;
 }
 
 #city-input {
+  text-align: left;
   color: #2a6f90;
+}
+
+small {
+  font-size: 16px;
+  margin-left: 260px;
+  color: #d35506;
 }
