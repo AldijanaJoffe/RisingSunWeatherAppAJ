@@ -4,34 +4,34 @@ body {
 
 h1 {
   text-align: left;
-  color: #d35506;
-  font-size: 50px;
-  font-weight: 200;
+  color: #03939e;
+  font-size: 60px;
+  font-weight: 500;
   line-height: 70px;
   margin-right: 0 auto;
+  margin-left: 12px;
 }
 
 ul {
   font-weight: 100;
   text-align: left;
-  margin: 10 10 10px;
   text-align: left;
-  padding: 3px;
+  padding: 20px;
 }
 
 li {
   text-align: left;
-  color: #2a6f90;
+  color: #03939e;
   font-size: 16px;
   font-weight: 200;
   height: 19px;
   line-height: 1;
   list-style: none;
   margin-top: 5px;
-  margin-left: 10px;
 }
 
 .weather-app {
+  position: relative;
   border: 5px solid #d35506;
   padding: 15px;
   margin: 20px auto;
@@ -39,43 +39,71 @@ li {
   max-width: 600px;
 }
 
-#temperature {
-  text-align: left;
-  color: #2a6f90;
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 1;
-  padding: 10px;
-}
-
 .search-form {
   display: block;
   margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 40px;
   margin-bottom: 5px;
   text-align: left;
   padding: 0;
 }
 
+.row {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 50px;
+  color: #d35506;
+  margin-top: 5px;
+}
+
+small {
+  position: relative;
+  font-size: 16px;
+  margin-left: 470px;
+  color: #d35506;
+}
+
+#city-input {
+  text-align: left;
+}
+#temperature {
+  text-align: left;
+  color: #03939e;
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 1;
+  padding: 10px;
+}
+
+#celsius-link {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 400px;
+  color: #d35506;
+}
+
 #current-location-button {
-  position: fixed;
-  min-width: 150px;
-  max-width: 150px;
+  font-size: 20px;
+  font-weight: 50px;
+  min-width: 200px;
+  max-width: 200px;
   text-decoration: none;
-  outline: none;
+  outline-style: none;
   cursor: pointer;
   border-style: none;
+  border: 4px double #f9a702;
   color: white;
   background-color: #d35506;
   border-radius: 100%;
   overflow: none;
   text-align: center;
-  margin-top: 20px;
-  margin-left: 90px;
-  margin-right: 5px;
-  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
-#current-location-button:before {
+#current-location-button::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -84,25 +112,5 @@ li {
 
 #current-location-button:hover {
   background: #f9a702;
-  transition: all 700ms ease;
-}
-
-.row {
-  font-size: 16px;
-  color: #d35506;
-  text-align: center;
-  font-weight: 50px;
-  color: #d35506;
-  margin-top: 20px;
-}
-
-#city-input {
-  text-align: left;
-  color: #2a6f90;
-}
-
-small {
-  font-size: 16px;
-  margin-left: 260px;
-  color: #d35506;
+  transition: all 800ms ease;
 }
