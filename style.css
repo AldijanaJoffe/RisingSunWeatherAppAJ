@@ -10,6 +10,7 @@ h1 {
   line-height: 70px;
   margin-right: 0 auto;
   margin-left: 12px;
+  margin-top: 25px;
 }
 
 ul {
@@ -30,13 +31,16 @@ li {
   margin-top: 5px;
 }
 
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
 .weather-app {
   position: relative;
   border: 5px solid #d35506;
   padding: 15px;
-  margin: 20px auto;
   border-radius: 20px;
-  max-width: 600px;
 }
 
 .search-form {
@@ -58,15 +62,15 @@ li {
 }
 
 small {
-  position: relative;
   font-size: 16px;
-  margin-left: 470px;
   color: #d35506;
+  margin-top: 5px;
 }
 
 #city-input {
   text-align: left;
 }
+
 #temperature {
   text-align: left;
   color: #03939e;
@@ -81,6 +85,7 @@ small {
   font-size: 30px;
   font-weight: 400px;
   color: #d35506;
+  top: -25px;
 }
 
 #current-location-button {
