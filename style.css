@@ -32,7 +32,8 @@ li {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 560px;
+  max-height: 435px;
   margin: 20px auto;
 }
 
@@ -81,11 +82,12 @@ small {
 }
 
 #celsius-link {
+  position: relative;
   text-align: left;
   font-size: 30px;
   font-weight: 400px;
   color: #d35506;
-  top: -25px;
+  top: -27px;
 }
 
 #current-location-button {
@@ -103,8 +105,9 @@ small {
   border-radius: 100%;
   overflow: none;
   text-align: center;
-  margin-bottom: 10px;
-  margin-right: 80px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  margin-right: 30px;
   margin-left: 80px;
 }
 
