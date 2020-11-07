@@ -11,36 +11,43 @@
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Weather App</title>
+  <script src="https://use.fontawesome.com/aef7b5a128.js"></script>
 </head>
 
 <body>
   <div class="container">
     <div class="weather-app-wrapper">
     <div class="weather-app">
+      <div class="clearfix">
+        <div class="float-left">
       <div class="row">
         <form class="search-form" id="search-form">
-          <div class="row">
-            <div class="col-20">
-              <input type="search" placeholder="Enter a city.." autofocus="on" autocomplete="off" id="city-input"
-                class="form-control btn btn shadow-sm" id="search-bar" />
-            </div>
-            <div class="col">
-              <input type="submit" value="Search" class="form-control btn btn-search shadow-sm" />
-            </div>
+        <div class="col-md mt-2">
+          <div class="input-group" id="search-form">
+            <input class="form-control rounded-pill py-2 pr-5 mr-1 bg-transparent" type="search" value="search" id="city-input">
+            <span class="input-group-append">
+              <div class="input-group-text border-0 bg-transparent ml-n5">
+                <i class="fa fa-search" id="search-bar"></i>
+              </div>
+            </span>
           </div>
+        </div>
+        </form>
       </div>
-    </form>
-  <div class="clearfix">
+    <h1 id="city"></h1>
+    </div>
+    <div class="float-right">
+      <img src="images/blue1.svg" class="img-responsive" alt="Responsive image"></>
+    </div>
+
+    <div class="clearfix">
         <div class="float-left">
-          <h1 id="city"></h1>
-          <div class="float-left">
-            <span class="temperature" id="temperature"></span><span class="units"><a href="#" id="celsius-link">°C | F</a></span>
-            </div>
+         
+          <span class="temperature" id="temperature"></span><span class="units"><a href="#" id="celsius-link">°C | F</a></span>
           <span class="float-right">
-            <button class="round-button" id="current-location-button">
-              Current
-            </button>
+            <button class="round-button" id="current-location-button">Current</button>
           </span>
+
           <div class="float-left">
             <ul>
               <li id="date"></li>
@@ -86,10 +93,13 @@
             <div>Sun
               <span class="temperature" id="temperature-sat"></span>
             </div>
+          
           </div>
         </div>
       </div>
     </div>
+    </div>
+  </br>
     <small>
         <a href="https://github.com/AldijanaJoffe/RisingSunWeatherAppAJ" target="_blank">Open-source-code</a> by Aldijana
         Joffe

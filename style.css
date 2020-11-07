@@ -7,17 +7,17 @@ h1 {
   color: #03939e;
   font-size: 60px;
   font-weight: 500;
-  line-height: 70px;
+  margin-top: 10px;
   margin-right: 0 auto;
   margin-left: 12px;
-  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 ul {
+  position: relative;
   font-weight: 100;
   text-align: left;
-  text-align: left;
-  padding: 20px;
+  padding: 20px 20px;
 }
 
 li {
@@ -37,6 +37,12 @@ li {
   margin: 20px auto;
 }
 
+.img-responsive {
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+
 .weather-app {
   position: relative;
   border: 5px solid #d35506;
@@ -46,9 +52,8 @@ li {
 
 .search-form {
   display: block;
-  margin-top: 10px;
   margin-right: 5px;
-  margin-left: 40px;
+  margin-left: 15px;
   margin-bottom: 5px;
   text-align: left;
   padding: 0;
@@ -62,14 +67,18 @@ li {
   margin-top: 5px;
 }
 
+.fa {
+  color: #d35506;
+}
+
 small {
   font-size: 16px;
   color: #d35506;
-  margin-top: 5px;
 }
 
 #city-input {
-  text-align: left;
+  color: #03939e;
+  margin-left: 0 auto;
 }
 
 #temperature {
@@ -78,7 +87,8 @@ small {
   font-size: 70px;
   font-weight: 300;
   line-height: 1;
-  padding: 10px;
+  padding: 5px;
+  margin-left: 8px;
 }
 
 #celsius-link {
@@ -87,7 +97,7 @@ small {
   font-size: 30px;
   font-weight: 400px;
   color: #d35506;
-  top: -27px;
+  top: -25px;
 }
 
 #current-location-button {
@@ -99,15 +109,14 @@ small {
   outline-style: none;
   cursor: pointer;
   border-style: none;
-  border: 4px double #f9a702;
   color: white;
   background-color: #d35506;
   border-radius: 100%;
   overflow: none;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 40px;
-  margin-right: 30px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  margin-right: 50px;
   margin-left: 80px;
 }
 
@@ -120,5 +129,5 @@ small {
 
 #current-location-button:hover {
   background: #f9a702;
-  transition: all 800ms ease;
+  transition: all 900ms ease;
 }
