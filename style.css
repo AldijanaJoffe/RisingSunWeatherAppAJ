@@ -162,6 +162,11 @@ small {
   transition: all 800ms ease;
 }
 
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
 .weather-forecast {
   margin-top: 10px;
 }
