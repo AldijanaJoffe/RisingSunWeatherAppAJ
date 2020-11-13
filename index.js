@@ -117,7 +117,7 @@ function displayCelsiusTemperature(event) {
 
 function getCurrentLocation(event) {
   event.preventDefault();
-  navigator.geolocation.getCurrentLocation(searchLocation);
+  navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
 let celsiusTemperature = null;
